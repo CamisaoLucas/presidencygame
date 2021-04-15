@@ -1,0 +1,124 @@
+body
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+Header
+{
+    background-color: rgb(87, 38, 38);
+    padding: 40px 0;
+}
+
+.caixa
+{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nomeDoJogo
+{   
+    text-align: center;
+    color: rgb(236, 236, 52);
+    font-size: 34px;
+}
+
+p{
+    text-align: center;
+    margin: 5% auto;
+    font-size: 24px;
+}
+
+h1{
+    text-align: center;
+    margin: 5% auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.personagens
+{   display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 940px;
+    padding: 50px 0;
+}
+
+
+.personagens li
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+
+.personagens li:hover
+{   
+    transition: 400ms;
+    background-color: brown;
+    border-color: #c74c19;
+}
+
+.personagens a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer
+{
+    text-align: center;
+    padding: 90px 0;
+    background-color:rgb(87, 38, 38) ;
+}
+
+.copyright
+{
+    font-size: 13px;
+    color: white;
+    margin: 20px 0 0;
+}
+
+.decisao
+{   display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 940px;
+    padding: 50px 0;
+}
+
+
+.decisao li
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+
+.decisao li:hover
+{   
+    transition: 400ms;
+    background-color: brown;
+    border-color: #c74c19;
+}
+
+.decisao a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
